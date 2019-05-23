@@ -1,48 +1,18 @@
  public class Coffee {
 
-    CoffeeMaker coffeeMaker;
-
-
-     private String type;
-
-     public int getWater() {
-         return water;
-     }
-
-     public void setWater(int water) {
-         this.water = water;
-     }
-
-     public int getCoffeePowder() {
-         return coffeePowder;
-     }
-
-     public void setCoffeePowder(int coffeePowder) {
-         this.coffeePowder = coffeePowder;
-     }
-
-     public int getMilk() {
-         return milk;
-     }
-
-     public void setMilk(int milk) {
-         this.milk = milk;
-     }
-
-     private int water;
-     private int coffeePowder;
-     private int milk;
-
-
 
      public String getType() {
-             return type;
+         return type;
      }
 
      public void setType(String type) {
          this.type = type;
      }
 
+     private String type;
+     private int water;
+     private int milk;
+     private int coffeePowder;
 
      public Coffee() {
          this.type = type;

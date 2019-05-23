@@ -6,7 +6,6 @@ public class RunCoffeeMachine {
 
 
     public static void main(String[] args) {
-        RunCoffeeMachine runMachine = new RunCoffeeMachine();
         CoffeeMaker coffeeMaker = new CoffeeMaker();
 
         Coffee coffee = new Coffee();
