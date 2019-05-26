@@ -20,21 +20,26 @@ CoffeePowderDispenser coffeePowder = new CoffeePowderDispenser();
     }
 
 
-    public Coffee makeCoffee(String type) {
+    public String makeCoffee(String type) {
         if (type.equals("black coffee")) {
-            water.getWater(250);
+            water.getWater(20);
             milk.getMilk(0);
             coffeePowder.getCoffeePowder(15);
+            return "Making you a black coffee";
+
         } else if (type.equals("flat white")) {
             milk.getMilk(10);
             coffeePowder.getCoffeePowder(8);
             water.getWater(30);
+            return "Making you a flat white";
+
         } else if (type.equals("latte")) {
             milk.getMilk(20);
             coffeePowder.getCoffeePowder(8);
             water.getWater(20);
+            return "Making you a latte";
         }
-        return coffee;
+        return null;
     }
 
 }

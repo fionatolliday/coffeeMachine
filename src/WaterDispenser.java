@@ -25,6 +25,8 @@
 //         For this exercise, use the classes found below and focus on making the CoffeeMaker class.
 //
 //         Requirements:
+        // - have only one public method Coffee makeCoffee(String type) and no public variables
+
 //         - get all the ingredients for the coffee from the other components
 //
 //         - if the coffee maker receives a coffee type that it doesn't know how to create, return null

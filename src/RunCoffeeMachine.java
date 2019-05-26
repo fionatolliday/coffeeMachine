@@ -13,7 +13,7 @@ public class RunCoffeeMachine {
         System.out.println("Please type a coffee you would like: ");
         String readUserInput = userInput.nextLine().toLowerCase();
         coffee.setType(readUserInput);
-        System.out.println(coffeeMaker.whatType(readUserInput));
+//        System.out.println(coffeeMaker.whatType(readUserInput));
         System.out.println(coffeeMaker.makeCoffee(readUserInput));
 
     }
