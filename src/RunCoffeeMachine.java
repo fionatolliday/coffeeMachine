@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class RunCoffeeMachine {
 
+    List<String> orders;
+
+
     public static void main(String[] args) {
         CoffeeMaker coffeeMaker = new CoffeeMaker(new WaterDispenser(), new MilkDispenser(),
                 new CoffeePowderDispenser());
@@ -37,10 +40,11 @@ public class RunCoffeeMachine {
 
         for (int i = 0; i < orders.size(); i++) {
             String order = orders.get(i);
-            Coffee coffee = coffeeMaker.makeCoffee(order);
+                Coffee coffee = coffeeMaker.makeCoffee(order);
+            }
 
-            coffee.consume();
-            System.out.println("Coffee: " + coffee);
-        }
+//            coffee.consume();
+//            System.out.println("Coffee: " + coffee.type);
+
     }
 }

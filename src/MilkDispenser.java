@@ -9,7 +9,7 @@
      }
 
 
-     public int getMilkPowderLevel() {
+     public int getMilkLevel() {
          return milk;
      }
  }
