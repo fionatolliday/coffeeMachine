@@ -1,29 +1,29 @@
 public class CoffeeMaker {
+    WaterDispenser waterDispenser = new WaterDispenser();
+    MilkDispenser milkDispenser = new MilkDispenser();
+    CoffeePowderDispenser coffeePowderDispenser = new CoffeePowderDispenser();
 
-private Coffee coffee = new Coffee();
-WaterDispenser water = new WaterDispenser();
-MilkDispenser milk = new MilkDispenser();
-CoffeePowderDispenser coffeePowder = new CoffeePowderDispenser();
-
-
-
-    public String makeCoffee(String type) {
+    public Coffee makeCoffee(String type) {
+        int milk;
+        int coffeePowder;
+        int coffeeWater;
         if (type.equals("black coffee")) {
-            milk.getMilk(0);
-            coffeePowder.getCoffeePowder(15);
-            water.getWater(40);
+            milk = milkDispenser.getMilk(0);
+            coffeePowder = coffeePowderDispenser.getCoffeePowder(15);
+            coffeeWater = waterDispenser.getWater(40);
+            new Coffee(type, coffeeWater, coffeePowder, milk);
 
         } else if (type.equals("flat white")) {
-            milk.getMilk(10);
-            coffeePowder.getCoffeePowder(8);
-            water.getWater(30);
-            return "Making you a flat white";
+            milk = milkDispenser.getMilk(0);
+            coffeePowder = coffeePowderDispenser.getCoffeePowder(15);
+            coffeeWater = waterDispenser.getWater(40);
+            new Coffee(type, coffeeWater, coffeePowder, milk);
 
         } else if (type.equals("latte")) {
-            milk.getMilk(20);
-            coffeePowder.getCoffeePowder(8);
-            water.getWater(20);
-            return "Making you a latte";
+            milk = milkDispenser.getMilk(0);
+            coffeePowder = coffeePowderDispenser.getCoffeePowder(15);
+            coffeeWater = waterDispenser.getWater(40);
+            new Coffee(type, coffeeWater, coffeePowder, milk);
         }
         return null;
     }

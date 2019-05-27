@@ -1,25 +1,33 @@
  public class Coffee {
+     public String type;
+     public int water;
+     public int coffeePowder;
+     public int milk;
 
+     private boolean isConsumed = false;
 
-     public String getType() {
-         return type;
-     }
-
-     public void setType(String type) {
-         this.type = type;
-     }
-
-     private String type;
-     private int water;
-     private int milk;
-     private int coffeePowder;
-
-     public Coffee() {
+     public Coffee(String type, int water, int coffeePowder, int milk) {
          this.type = type;
          this.water = water;
          this.milk = milk;
          this.coffeePowder = coffeePowder;
      }
 
+     public void consume() {
+         if (isConsumed) {
+             throw new RuntimeException("I've already been consumed");
+         } else {
+             isConsumed = true;
+         }
+     }
 
+     @Override
+     public String toString() {
+         return "Coffee{" +
+                 "type='" + type + '\'' +
+                 ", water=" + water +
+                 ", coffeePowder=" + coffeePowder +
+                 ", milk=" + milk +
+                 '}';
+     }
  }

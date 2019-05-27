@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class RunCoffeeMachine {
@@ -7,11 +9,18 @@ public class RunCoffeeMachine {
 
         CoffeeMaker coffeeMaker = new CoffeeMaker();
 
-        Scanner userInput = new Scanner(System.in);
+        List<String> orders = new ArrayList<>();
+        orders.add("black coffee");
+        orders.add("latte");
+        orders.add("flat white");
+        orders.add("black coffee");
 
-        System.out.println("Please type a coffee you would like: ");
-        String readUserInput = userInput.nextLine().toLowerCase();
-        System.out.println(coffeeMaker.makeCoffee(readUserInput));
+        for (int i = 0; i < orders.size(); i++) {
+            String order = orders.get(i);
+            Coffee coffee = coffeeMaker.makeCoffee(order);
 
+            coffee.consume();
+            System.out.println("Coffee: " + coffee);
+        }
     }
 }
