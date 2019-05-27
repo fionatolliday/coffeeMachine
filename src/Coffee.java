@@ -20,14 +20,4 @@
              isConsumed = true;
          }
      }
-
-     @Override
-     public String toString() {
-         return "Coffee{" +
-                 "type='" + type + '\'' +
-                 ", water=" + water +
-                 ", coffeePowder=" + coffeePowder +
-                 ", milk=" + milk +
-                 '}';
-     }
  }

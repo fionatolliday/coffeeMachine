@@ -8,4 +8,8 @@
          coffeePowder -= amount;
          return amount;
      }
+
+     public int getCoffeePowderLevel() {
+         return coffeePowder;
+     }
  }

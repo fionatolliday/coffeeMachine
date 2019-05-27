@@ -7,4 +7,9 @@
          milk -= amount;
          return amount;
      }
+
+
+     public int getMilkPowderLevel() {
+         return milk;
+     }
  }

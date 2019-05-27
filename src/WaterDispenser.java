@@ -7,6 +7,11 @@
             water -= amount;
             return amount;
         }
+
+
+     public int getWaterLevel() {
+         return water;
+     }
 }
 
 

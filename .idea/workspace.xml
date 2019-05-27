@@ -62,10 +62,14 @@
       <change afterPath="$PROJECT_DIR$/../slackTool/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../slackTool/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CoffeeMaker/Coffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoffeeMaker/Coffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CoffeeMaker/CoffeeMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoffeeMaker/CoffeeMaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CoffeeMaker/RunCoffeeMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoffeeMaker/RunCoffeeMachine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coffee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CoffeeMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoffeeMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoffeePowderDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoffeePowderDispenser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RunCoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunCoffeeMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WaterDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WaterDispenser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MagicYearCalc2/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MagicYearCalc2/src/com/company/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PayslipProblem/.idea/description.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PayslipProblem/.idea/encodings.xml" beforeDir="false" />
@@ -90,11 +94,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RunCoffeeMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            <state relative-caret-position="516">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoffeeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+            <state relative-caret-position="-19">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -123,17 +127,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Coffee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="406">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="245" column="44" selection-start-line="245" selection-start-column="44" selection-end-line="245" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CoffeePowderDispenser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="264">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,12 +179,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/MilkDespenser.java" />
-        <option value="$PROJECT_DIR$/src/CoffeePowderDispenser.java" />
         <option value="$PROJECT_DIR$/src/MilkDispenser.java" />
-        <option value="$PROJECT_DIR$/src/Coffee.java" />
-        <option value="$PROJECT_DIR$/src/RunCoffeeMachine.java" />
         <option value="$PROJECT_DIR$/src/WaterDispenser.java" />
+        <option value="$PROJECT_DIR$/src/Coffee.java" />
         <option value="$PROJECT_DIR$/src/CoffeeMaker.java" />
+        <option value="$PROJECT_DIR$/src/RunCoffeeMachine.java" />
+        <option value="$PROJECT_DIR$/src/CoffeePowderDispenser.java" />
       </list>
     </option>
   </component>
@@ -203,7 +220,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558924210150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558935405191" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
@@ -268,7 +285,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32982457" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21052632" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2900585" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -301,20 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Coffee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeePowderDispenser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WaterDispenser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -322,19 +325,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="245" column="44" selection-start-line="245" selection-start-column="44" selection-end-line="245" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Coffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CoffeeMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+        <state relative-caret-position="-19">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RunCoffeeMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="516">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeePowderDispenser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
           </folding>
         </state>
       </provider>
