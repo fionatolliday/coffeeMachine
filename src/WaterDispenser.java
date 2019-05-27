@@ -2,7 +2,7 @@
         private int water = 200;
 
         public int getWater(int amount) {
-            if (water - amount > 0) throw new IllegalArgumentException("Insufficient water levels");
+            if (water - amount < 0) throw new IllegalArgumentException("Insufficient water levels");
 
             water -= amount;
             return amount;
