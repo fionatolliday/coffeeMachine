@@ -42,6 +42,7 @@ public class RunCoffeeMachine {
 
         for (int i = 0; i < orders.size(); i++) {
             String order = orders.get(i);
+
                 coffee = coffeeMaker.makeCoffee(order);
                 if (coffee == null){
                     System.out.println("Check ingredients");
