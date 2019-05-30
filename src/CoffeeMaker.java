@@ -5,6 +5,7 @@ public class CoffeeMaker {
     MilkDispenser milkDispenser;
     CoffeePowderDispenser coffeePowderDispenser;
 
+
     public CoffeeMaker(WaterDispenser waterDispenser, MilkDispenser milkDispenser,
                        CoffeePowderDispenser coffeePowderDispenser) {
         this.waterDispenser = waterDispenser;

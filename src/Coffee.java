@@ -1,4 +1,5 @@
  public class Coffee {
+
      public String type;
      public int water;
      public int coffeePowder;
