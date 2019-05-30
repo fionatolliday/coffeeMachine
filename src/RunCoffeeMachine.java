@@ -38,13 +38,14 @@ public class RunCoffeeMachine {
         orders.add("flat white");
         orders.add("black coffee");
 
+        Coffee coffee = null;
         for (int i = 0; i < orders.size(); i++) {
             String order = orders.get(i);
-                Coffee coffee = coffeeMaker.makeCoffee(order);
-            }
+            coffee = coffeeMaker.makeCoffee(order);
+        }
 
-//            coffee.consume();
-//            System.out.println("Coffee: " + coffee.type);
+        coffee.consume();
+        System.out.println("Coffee: " + coffee.type);
 
     }
 }

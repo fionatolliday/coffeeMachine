@@ -6,12 +6,11 @@ public class CoffeeMaker {
     CoffeePowderDispenser coffeePowderDispenser;
 
     public CoffeeMaker(WaterDispenser waterDispenser, MilkDispenser milkDispenser,
-                       CoffeePowderDispenser coffeePowderDispenser){
+                       CoffeePowderDispenser coffeePowderDispenser) {
         this.waterDispenser = waterDispenser;
         this.coffeePowderDispenser = coffeePowderDispenser;
         this.milkDispenser = milkDispenser;
     }
-
 
 
     public Coffee makeCoffee(String type) {
@@ -19,33 +18,40 @@ public class CoffeeMaker {
         int coffeePowder;
         int coffeeWater;
 
-            if (type.equals("black coffee")) {
+
+        if (type.equals("black coffee")) {
+            try {
                 milk = milkDispenser.getMilk(0);
                 coffeePowder = coffeePowderDispenser.getCoffeePowder(15);
                 coffeeWater = waterDispenser.getWater(40);
-                Coffee blackCoffee = new Coffee(type, coffeeWater, coffeePowder, milk);
-                if (milkDispenser.getMilkLevel() > milk && coffeePowderDispenser.getCoffeePowderLevel() > coffeePowder && waterDispenser.getWaterLevel() > coffeeWater) {
-                    return blackCoffee;
-                } return null;
+                return new Coffee(type, coffeeWater, coffeePowder, milk);
+            } catch (IllegalArgumentException error) {
+                return null;
+            }
 
-            } else if (type.equals("flat white")) {
+
+        } else if (type.equals("flat white")) {
+            try {
                 milk = milkDispenser.getMilk(10);
-                coffeePowder = coffeePowderDispenser.getCoffeePowder(8);
+                coffeePowder = coffeePowderDispenser.getCoffeePowder(15);
                 coffeeWater = waterDispenser.getWater(30);
-                if (milkDispenser.getMilkLevel() > milk && coffeePowderDispenser.getCoffeePowderLevel() > coffeePowder && waterDispenser.getWaterLevel() > coffeeWater) {
-                    return new Coffee(type, coffeeWater, coffeePowder, milk);
-                }return null;
+                return new Coffee(type, coffeeWater, coffeePowder, milk);
+            } catch (IllegalArgumentException error) {
+                return null;
+            }
 
-            } else if (type.equals("latte")) {
+
+        } else if (type.equals("latte")) {
+            try {
                 milk = milkDispenser.getMilk(20);
-                coffeePowder = coffeePowderDispenser.getCoffeePowder(8);
+                coffeePowder = coffeePowderDispenser.getCoffeePowder(15);
                 coffeeWater = waterDispenser.getWater(20);
-                if (milkDispenser.getMilkLevel() > milk && coffeePowderDispenser.getCoffeePowderLevel() > coffeePowder && waterDispenser.getWaterLevel() > coffeeWater) {
-                    return new Coffee(type, coffeeWater, coffeePowder, milk);
-                } return null;
-
-
-        } return null;
+                return new Coffee(type, coffeeWater, coffeePowder, milk);
+            } catch (IllegalArgumentException error) {
+                return null;
+            }
+        }
+        return null;
     }
 
 }
