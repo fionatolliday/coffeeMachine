@@ -2,65 +2,71 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class CoffeeMakerTest {
 
-    private WaterDispenser waterDispenser;
-    private MilkDispenser milkDispenser;
-    private CoffeePowderDispenser coffeePowderDispenser;
-    private CoffeeMaker coffeeMaker;
-
-    @Before
-    public void setUp() throws Exception {
-        waterDispenser = new WaterDispenser();
-
-        coffeeMaker = new CoffeeMaker(new WaterDispenser(), new MilkDispenser(), new CoffeePowderDispenser());
-    }
-    
-
     @Test
-    public void iHaveEnoughIngredientsForAnyCoffee() {
+    public void checkIfIngredientsAvailableReturnsTrueWhenIHaveEnoughIngredients() {
         WaterDispenser waterDispenser = new WaterDispenser();
+        CoffeePowderDispenser coffeeDispenser = new CoffeePowderDispenser();
+        MilkDispenser milkDispenser = new MilkDispenser();
+
         waterDispenser.setWater(200);
-        MilkDispenser milkDispenser = new MilkDispenser();
-        milkDispenser.setMilk(100);
-        CoffeePowderDispenser coffeeDispenser = new CoffeePowderDispenser();
         coffeeDispenser.setCoffeePowder(50);
+        milkDispenser.setMilk(100);
 
-
-        CoffeeMaker enoughIngredients = new CoffeeMaker(waterDispenser, milkDispenser,
+        CoffeeMaker coffeeMakerWithEnoughIngredients = new CoffeeMaker(waterDispenser,
+                milkDispenser,
                 coffeeDispenser);
 
-        boolean expected = true;
-        boolean actual = enoughIngredients.checkIfIngredientsAvailable(40, 15, 20);
+        boolean actualResult = coffeeMakerWithEnoughIngredients.checkIfIngredientsAvailable(40, 15,
+                20);
 
-        Assert.assertEquals(expected, actual);
+        Assert.assertTrue(actualResult);
     }
 
     @Test
-    public void iDoNotHaveEnoughIngredientsForAnyCoffee() {
+    public void checkIfIngredientsAvailableReturnsFalseWhenIDoNotHaveEnoughIngredients(){
         WaterDispenser waterDispenser = new WaterDispenser();
-        waterDispenser.setWater(2);
-        MilkDispenser milkDispenser = new MilkDispenser();
-        milkDispenser.setMilk(200);
         CoffeePowderDispenser coffeeDispenser = new CoffeePowderDispenser();
-        coffeeDispenser.setCoffeePowder(200);
+        MilkDispenser milkDispenser = new MilkDispenser();
 
+        waterDispenser.setWater(2);
+        coffeeDispenser.setCoffeePowder(2);
+        milkDispenser.setMilk(2);
 
-        CoffeeMaker notEnoughIngredients = new CoffeeMaker(waterDispenser, milkDispenser,
+        CoffeeMaker coffeeMakerWithEnoughIngredients = new CoffeeMaker(waterDispenser,
+                milkDispenser,
                 coffeeDispenser);
 
-        boolean expected = false;
-        boolean actual = notEnoughIngredients.checkIfIngredientsAvailable(40, 15, 0);
+        boolean actualResult = coffeeMakerWithEnoughIngredients.checkIfIngredientsAvailable(40, 15,
+                20);
 
-        Assert.assertEquals(expected, actual);
+        Assert.assertFalse(actualResult);
     }
 
     @Test
-    public void returnsABlackCoffee() {
+    public void ifOrderIsBlackCoffeeReturnBlackCoffeeIfIHaveEnoughIngredients() {
+        WaterDispenser waterDispenser = new WaterDispenser();
+        CoffeePowderDispenser coffeeDispenser = new CoffeePowderDispenser();
+        MilkDispenser milkDispenser = new MilkDispenser();
 
+        waterDispenser.setWater(200);
+        coffeeDispenser.setCoffeePowder(50);
+        milkDispenser.setMilk(100);
 
+        CoffeeMaker makeBlackCoffee = new CoffeeMaker(waterDispenser,
+                milkDispenser,
+                coffeeDispenser);
+
+        String expectedResult = "black coffee";
+        Coffee actualResult = makeBlackCoffee.makeCoffee("black coffee");
+
+        Assert.assertEquals(expectedResult, actualResult.type);
+    }
+
+    @Test
+    public void ifOrderIsBlackCoffeeReturnNullIfIDoNotHaveEnoughIngredients() {
+        
     }
 
 }
