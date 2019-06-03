@@ -44,6 +44,7 @@ public class RunCoffeeMachine {
             String order = orders.get(i);
 
                 coffee = coffeeMaker.makeCoffee(order);
+
                 if (coffee == null){
                     System.out.println("Check ingredients");
                 } else
