@@ -29,11 +29,11 @@ public class CoffeeMakerTest {
         coffeeDispenser.setCoffeePowder(50);
 
 
-        CoffeeMaker notEnoughIngredients = new CoffeeMaker(waterDispenser, milkDispenser,
+        CoffeeMaker enoughIngredients = new CoffeeMaker(waterDispenser, milkDispenser,
                 coffeeDispenser);
 
         boolean expected = true;
-        boolean actual = notEnoughIngredients.checkIfIngredientsAvailable(40, 15, 20);
+        boolean actual = enoughIngredients.checkIfIngredientsAvailable(40, 15, 20);
 
         Assert.assertEquals(expected, actual);
     }
@@ -55,6 +55,12 @@ public class CoffeeMakerTest {
         boolean actual = notEnoughIngredients.checkIfIngredientsAvailable(40, 15, 0);
 
         Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void returnsABlackCoffee() {
+
+
     }
 
 }

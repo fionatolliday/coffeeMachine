@@ -63,16 +63,6 @@
       <change afterPath="$PROJECT_DIR$/../slackTool/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoffeeMaker/Coffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoffeeMaker/Coffee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoffeeMaker/CoffeePowderDispenser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoffeeMaker/CoffeePowderDispenser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoffeeMaker/MilkDispenser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoffeeMaker/MilkDispenser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoffeeMaker/WaterDispenser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoffeeMaker/WaterDispenser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/CoffeeMaker/CoffeeMakerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/CoffeeMaker/CoffeeMakerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CoffeeMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoffeeMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CoffeePowderDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoffeePowderDispenser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MilkDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MilkDispenser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WaterDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WaterDispenser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/CoffeeMakerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CoffeeMakerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MagicYearCalc2/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MagicYearCalc2/src/com/company/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PayslipProblem/.idea/description.html" beforeDir="false" />
@@ -113,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoffeeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="16" column="46" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="-38">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -122,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/CoffeeMakerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="208">
+              <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -254,7 +244,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559538791758" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559539042116" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -365,12 +355,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CoffeeMakerTest_iHaveEnoughIngredientsForABlackCoffee - 2019.06.03 at 14h 18m 56s.xml">
-      <configuration name="CoffeeMakerTest.iHaveEnoughIngredientsForABlackCoffee" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoffeeMakerTest_iDoNotHaveEnoughIngredientsForABlackCoffee - 2019.06.03 at 14h 20m 20s.xml">
-      <configuration name="CoffeeMakerTest.iDoNotHaveEnoughIngredientsForABlackCoffee" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CoffeeMakerTest_iDoNotHaveEnoughIngredientsForABlackCoffee - 2019.06.03 at 14h 20m 48s.xml">
       <configuration name="CoffeeMakerTest.iDoNotHaveEnoughIngredientsForABlackCoffee" configurationId="JUnit" />
     </history-entry>
@@ -395,12 +379,18 @@
     <history-entry file="CoffeeMakerTest_iHaveEnoughIngredientsForAnyCoffee - 2019.06.03 at 14h 58m 52s.xml">
       <configuration name="CoffeeMakerTest.iHaveEnoughIngredientsForAnyCoffee" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CoffeeMakerTest_iDoNotHaveEnoughIngredientsForAnyCoffee - 2019.06.03 at 15h 11m 07s.xml">
+      <configuration name="CoffeeMakerTest.iDoNotHaveEnoughIngredientsForAnyCoffee" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoffeeMakerTest_iHaveEnoughIngredientsForAnyCoffee - 2019.06.03 at 15h 13m 13s.xml">
+      <configuration name="CoffeeMakerTest.iHaveEnoughIngredientsForAnyCoffee" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="53" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1984127" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1984127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,7 +400,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.25614035" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21637426" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27836257" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,41 +443,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeePowderDispenser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding>
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MilkDispenser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Coffee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -504,10 +463,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MilkDispenser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeePowderDispenser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/CoffeeMakerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="208">
+          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
