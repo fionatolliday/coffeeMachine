@@ -21,7 +21,7 @@ public class CoffeeMaker {
         return coffeePowderLevel >= 15 && waterLevel >= 40;
     }
 
-    private boolean checkIfIngredientsAvailableForFlat(){
+    public boolean checkIfIngredientsAvailableForFlat(){
         int coffeePowderLevel = coffeePowderDispenser.getCoffeePowderLevel();
         int waterLevel = waterDispenser.getWaterLevel();
         int milkLevel = milkDispenser.getMilkLevel();
@@ -29,7 +29,7 @@ public class CoffeeMaker {
         return coffeePowderLevel >= 8 && waterLevel >= 30 && milkLevel >= 40;
     }
 
-    private boolean checkIfIngredientsAvailableForLatte(){
+    public boolean checkIfIngredientsAvailableForLatte(){
 
         int coffeePowderLevel = coffeePowderDispenser.getCoffeePowderLevel();
         int waterLevel = waterDispenser.getWaterLevel();

@@ -27,6 +27,19 @@ public class CoffeeMakerTest {
     }
 
     @Test
-    public void name() {
+    public void iHaveEnoughIngredientsForAFlatWhiteCoffee() {
+        boolean actual = true;
+        boolean expected = coffeeMaker.checkIfIngredientsAvailableForFlat();
+
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void iHaveEnoughIngredientsForALatteCoffee() {
+        boolean actual = true;
+        boolean expected = coffeeMaker.checkIfIngredientsAvailableForLatte();
+
+        Assert.assertEquals(actual, expected);
+
     }
 }

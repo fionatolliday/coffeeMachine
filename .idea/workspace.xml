@@ -63,11 +63,9 @@
       <change afterPath="$PROJECT_DIR$/../slackTool/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoffeeMaker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeMaker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoffeeMaker/CoffeeMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoffeeMaker/CoffeeMaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoffeeMaker/RunCoffeeMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoffeeMaker/RunCoffeeMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/CoffeeMaker/CoffeeMakerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/CoffeeMaker/CoffeeMakerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CoffeeMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoffeeMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunCoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunCoffeeMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CoffeeMakerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CoffeeMakerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MagicYearCalc2/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MagicYearCalc2/src/com/company/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PayslipProblem/.idea/description.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PayslipProblem/.idea/encodings.xml" beforeDir="false" />
@@ -107,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoffeeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="56" />
+            <state relative-caret-position="462">
+              <caret line="31" column="54" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -116,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/CoffeeMakerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="410">
+              <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -244,7 +242,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559530957417" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559531672392" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -273,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CoffeeMakerTest.iHaveEnoughBeansForABlackCoffee">
+  <component name="RunManager" selected="JUnit.CoffeeMakerTest.iHaveEnoughIngredientsForALatteCoffee">
     <configuration name="CoffeeMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoffeeMaker" />
       <module name="CoffeeMaker" />
@@ -298,11 +296,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CoffeeMakerTest.iHaveEnoughIngredientsForABlackCoffee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CoffeeMaker" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CoffeeMakerTest" />
+      <option name="METHOD_NAME" value="iHaveEnoughIngredientsForABlackCoffee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoffeeMakerTest.iHaveEnoughIngredientsForAFlatWhiteCoffee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CoffeeMaker" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CoffeeMakerTest" />
+      <option name="METHOD_NAME" value="iHaveEnoughIngredientsForAFlatWhiteCoffee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoffeeMakerTest.iHaveEnoughIngredientsForALatteCoffee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CoffeeMaker" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CoffeeMakerTest" />
+      <option name="METHOD_NAME" value="iHaveEnoughIngredientsForALatteCoffee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CoffeeMakerTest.iHaveEnoughIngredientsForALatteCoffee" />
+        <item itemvalue="JUnit.CoffeeMakerTest.iHaveEnoughIngredientsForAFlatWhiteCoffee" />
+        <item itemvalue="JUnit.CoffeeMakerTest.iHaveEnoughIngredientsForABlackCoffee" />
         <item itemvalue="JUnit.CoffeeMakerTest.iHaveEnoughBeansForABlackCoffee" />
         <item itemvalue="Application.RunCoffeeMachine" />
-        <item itemvalue="Application.CoffeeMaker" />
       </list>
     </recent_temporary>
   </component>
@@ -322,6 +352,12 @@
   <component name="TestHistory">
     <history-entry file="CoffeeMakerTest_iHaveEnoughBeansForABlackCoffee - 2019.06.03 at 13h 02m 09s.xml">
       <configuration name="CoffeeMakerTest.iHaveEnoughBeansForABlackCoffee" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoffeeMakerTest_iHaveEnoughIngredientsForABlackCoffee - 2019.06.03 at 13h 12m 09s.xml">
+      <configuration name="CoffeeMakerTest.iHaveEnoughIngredientsForABlackCoffee" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoffeeMakerTest_iHaveEnoughIngredientsForABlackCoffee - 2019.06.03 at 13h 12m 17s.xml">
+      <configuration name="CoffeeMakerTest.iHaveEnoughIngredientsForABlackCoffee" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -423,15 +459,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoffeeMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="56" />
+        <state relative-caret-position="462">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/CoffeeMakerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="410">
+          <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
