@@ -13,41 +13,48 @@ public class CoffeeMakerTest {
 
     @Before
     public void setUp() throws Exception {
+        waterDispenser = new WaterDispenser();
+
         coffeeMaker = new CoffeeMaker(new WaterDispenser(), new MilkDispenser(), new CoffeePowderDispenser());
     }
     
 
     @Test
-    public void iHaveEnoughIngredientsForABlackCoffee() {
-        boolean expected = true;
-        boolean actual = coffeeMaker.checkIfIngredientsAvailableForBlack();
+    public void iHaveEnoughIngredientsForAnyCoffee() {
+        WaterDispenser waterDispenser = new WaterDispenser();
+        waterDispenser.setWater(200);
+        MilkDispenser milkDispenser = new MilkDispenser();
+        milkDispenser.setMilk(100);
+        CoffeePowderDispenser coffeeDispenser = new CoffeePowderDispenser();
+        coffeeDispenser.setCoffeePowder(50);
 
-        Assert.assertEquals(actual, expected);
+
+        CoffeeMaker notEnoughIngredients = new CoffeeMaker(waterDispenser, milkDispenser,
+                coffeeDispenser);
+
+        boolean expected = true;
+        boolean actual = notEnoughIngredients.checkIfIngredientsAvailable(40, 15, 20);
+
+        Assert.assertEquals(expected, actual);
     }
 
     @Test
-    public void iHaveEnoughIngredientsForAFlatWhiteCoffee() {
-        boolean expected = true;
-        boolean actual = coffeeMaker.checkIfIngredientsAvailableForFlat();
+    public void iDoNotHaveEnoughIngredientsForAnyCoffee() {
+        WaterDispenser waterDispenser = new WaterDispenser();
+        waterDispenser.setWater(2);
+        MilkDispenser milkDispenser = new MilkDispenser();
+        milkDispenser.setMilk(200);
+        CoffeePowderDispenser coffeeDispenser = new CoffeePowderDispenser();
+        coffeeDispenser.setCoffeePowder(200);
 
-        Assert.assertEquals(actual, expected);
+
+        CoffeeMaker notEnoughIngredients = new CoffeeMaker(waterDispenser, milkDispenser,
+                coffeeDispenser);
+
+        boolean expected = false;
+        boolean actual = notEnoughIngredients.checkIfIngredientsAvailable(40, 15, 0);
+
+        Assert.assertEquals(expected, actual);
     }
 
-    @Test
-    public void iHaveEnoughIngredientsForALatteCoffee() {
-        boolean expected = true;
-        boolean actual = coffeeMaker.checkIfIngredientsAvailableForLatte();
-
-        Assert.assertEquals(actual, expected);
-    }
-
-    @Test
-    public void coffeeMakerReturnsABlackCoffee() {
-
-        String expected = "black coffee";
-        Coffee actual = coffeeMaker.makeCoffee("black coffee");
-
-        Assert.assertEquals(actual, expected);
-
-    }
 }

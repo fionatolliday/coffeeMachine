@@ -1,4 +1,6 @@
- public class Coffee {
+import java.util.Objects;
+
+public class Coffee {
 
      public String type;
      public int water;
@@ -21,4 +23,4 @@
              isConsumed = true;
          }
      }
- }
+}

@@ -9,6 +9,10 @@
         }
 
 
+     public void setWater(int water) {
+         this.water = water;
+     }
+
      public int getWaterLevel() {
          return water;
      }

@@ -9,6 +9,10 @@
      }
 
 
+     public void setMilk(int milk) {
+         this.milk = milk;
+     }
+
      public int getMilkLevel() {
          return milk;
      }

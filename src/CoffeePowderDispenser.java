@@ -9,6 +9,10 @@
          return amount;
      }
 
+     public void setCoffeePowder(int coffeePowder) {
+         this.coffeePowder = coffeePowder;
+     }
+
      public int getCoffeePowderLevel() {
          return coffeePowder;
      }
