@@ -66,7 +66,21 @@ public class CoffeeMakerTest {
 
     @Test
     public void ifOrderIsBlackCoffeeReturnNullIfIDoNotHaveEnoughIngredients() {
-        
+        WaterDispenser waterDispenser = new WaterDispenser();
+        CoffeePowderDispenser coffeeDispenser = new CoffeePowderDispenser();
+        MilkDispenser milkDispenser = new MilkDispenser();
+
+        waterDispenser.setWater(2);
+        coffeeDispenser.setCoffeePowder(2);
+        milkDispenser.setMilk(2);
+
+        CoffeeMaker makeBlackCoffee = new CoffeeMaker(waterDispenser,
+                milkDispenser,
+                coffeeDispenser);
+
+        Coffee actualResult = makeBlackCoffee.makeCoffee("black coffee");
+
+        Assert.assertNull(actualResult);
     }
 
 }
