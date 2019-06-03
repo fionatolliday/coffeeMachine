@@ -83,4 +83,82 @@ public class CoffeeMakerTest {
         Assert.assertNull(actualResult);
     }
 
+    @Test
+    public void ifOrderIsFlatWhiteReturnFlatWhiteIfIHaveEnoughIngredients() {
+        WaterDispenser waterDispenser = new WaterDispenser();
+        CoffeePowderDispenser coffeeDispenser = new CoffeePowderDispenser();
+        MilkDispenser milkDispenser = new MilkDispenser();
+
+        waterDispenser.setWater(200);
+        coffeeDispenser.setCoffeePowder(50);
+        milkDispenser.setMilk(100);
+
+        CoffeeMaker makeFlatWhite = new CoffeeMaker(waterDispenser,
+                milkDispenser,
+                coffeeDispenser);
+
+        String expectedResult = "flat white";
+        Coffee actualResult = makeFlatWhite.makeCoffee("flat white");
+
+        Assert.assertEquals(expectedResult, actualResult.type);
+    }
+
+    @Test
+    public void ifOrderIsFlatWhiteReturnNullIfIDoNotHaveEnoughIngredients() {
+        WaterDispenser waterDispenser = new WaterDispenser();
+        CoffeePowderDispenser coffeeDispenser = new CoffeePowderDispenser();
+        MilkDispenser milkDispenser = new MilkDispenser();
+
+        waterDispenser.setWater(2);
+        coffeeDispenser.setCoffeePowder(2);
+        milkDispenser.setMilk(2);
+
+        CoffeeMaker makeFlatWhite = new CoffeeMaker(waterDispenser,
+                milkDispenser,
+                coffeeDispenser);
+
+        Coffee actualResult = makeFlatWhite.makeCoffee("flat white");
+
+        Assert.assertNull(actualResult);
+    }
+
+    @Test
+    public void ifOrderIsLatteReturnLatteIfIHaveEnoughIngredients() {
+        WaterDispenser waterDispenser = new WaterDispenser();
+        CoffeePowderDispenser coffeeDispenser = new CoffeePowderDispenser();
+        MilkDispenser milkDispenser = new MilkDispenser();
+
+        waterDispenser.setWater(200);
+        coffeeDispenser.setCoffeePowder(50);
+        milkDispenser.setMilk(100);
+
+        CoffeeMaker makeLatte= new CoffeeMaker(waterDispenser,
+                milkDispenser,
+                coffeeDispenser);
+
+        String expectedResult = "latte";
+        Coffee actualResult = makeLatte.makeCoffee("latte");
+
+        Assert.assertEquals(expectedResult, actualResult.type);
+    }
+
+    @Test
+    public void ifOrderIsLatteReturnNullIfIDoNotHaveEnoughIngredients() {
+        WaterDispenser waterDispenser = new WaterDispenser();
+        CoffeePowderDispenser coffeeDispenser = new CoffeePowderDispenser();
+        MilkDispenser milkDispenser = new MilkDispenser();
+
+        waterDispenser.setWater(2);
+        coffeeDispenser.setCoffeePowder(2);
+        milkDispenser.setMilk(2);
+
+        CoffeeMaker makeLatte = new CoffeeMaker(waterDispenser,
+                milkDispenser,
+                coffeeDispenser);
+
+        Coffee actualResult = makeLatte.makeCoffee("latte");
+
+        Assert.assertNull(actualResult);
+    }
+
 }

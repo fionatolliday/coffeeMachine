@@ -102,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoffeeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="56">
               <caret line="35" column="69" lean-forward="true" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
             </state>
           </provider>
@@ -111,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/CoffeeMakerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="73" column="43" lean-forward="true" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
+            <state relative-caret-position="442">
+              <caret line="155" column="30" lean-forward="true" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -243,7 +243,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559599965705" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559600606839" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -272,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CoffeeMakerTest.ifOrderIsBlackCoffeeReturnNullIfIDoNotHaveEnoughIngredients">
+  <component name="RunManager" selected="JUnit.CoffeeMakerTest">
     <configuration name="CoffeeMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoffeeMaker" />
       <module name="CoffeeMaker" />
@@ -280,51 +280,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoffeeMakerTest.checkIfIngredientsAvailableReturnsFalseWhenIDoNotHaveEnoughIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoffeeMakerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CoffeeMaker" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CoffeeMakerTest" />
-      <option name="METHOD_NAME" value="checkIfIngredientsAvailableReturnsFalseWhenIDoNotHaveEnoughIngredients" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoffeeMakerTest.ifOrderIsFlatWhiteReturnFlatWhiteIfIHaveEnoughIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CoffeeMaker" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CoffeeMakerTest" />
+      <option name="METHOD_NAME" value="ifOrderIsFlatWhiteReturnFlatWhiteIfIHaveEnoughIngredients" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoffeeMakerTest.iHaveEnoughIngredientsForAnyCoffee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoffeeMakerTest.ifOrderIsFlatWhiteReturnNullIfIDoNotHaveEnoughIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CoffeeMaker" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CoffeeMakerTest" />
-      <option name="METHOD_NAME" value="iHaveEnoughIngredientsForAnyCoffee" />
+      <option name="METHOD_NAME" value="ifOrderIsFlatWhiteReturnNullIfIDoNotHaveEnoughIngredients" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoffeeMakerTest.ifOrderIsBlackCoffeeReturnBlackCoffeeIfIHaveEnoughIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoffeeMakerTest.ifOrderIsLatteReturnLatteIfIHaveEnoughIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CoffeeMaker" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CoffeeMakerTest" />
-      <option name="METHOD_NAME" value="ifOrderIsBlackCoffeeReturnBlackCoffeeIfIHaveEnoughIngredients" />
+      <option name="METHOD_NAME" value="ifOrderIsLatteReturnLatteIfIHaveEnoughIngredients" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoffeeMakerTest.ifOrderIsBlackCoffeeReturnNullIfIDoNotHaveEnoughIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoffeeMakerTest.ifOrderIsLatteReturnNullIfIDoNotHaveEnoughIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CoffeeMaker" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CoffeeMakerTest" />
-      <option name="METHOD_NAME" value="ifOrderIsBlackCoffeeReturnNullIfIDoNotHaveEnoughIngredients" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoffeeMakerTest.returnsABlackCoffee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CoffeeMaker" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CoffeeMakerTest" />
-      <option name="METHOD_NAME" value="returnsABlackCoffee" />
+      <option name="METHOD_NAME" value="ifOrderIsLatteReturnNullIfIDoNotHaveEnoughIngredients" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -332,11 +331,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CoffeeMakerTest.ifOrderIsBlackCoffeeReturnNullIfIDoNotHaveEnoughIngredients" />
-        <item itemvalue="JUnit.CoffeeMakerTest.ifOrderIsBlackCoffeeReturnBlackCoffeeIfIHaveEnoughIngredients" />
-        <item itemvalue="JUnit.CoffeeMakerTest.checkIfIngredientsAvailableReturnsFalseWhenIDoNotHaveEnoughIngredients" />
-        <item itemvalue="JUnit.CoffeeMakerTest.returnsABlackCoffee" />
-        <item itemvalue="JUnit.CoffeeMakerTest.iHaveEnoughIngredientsForAnyCoffee" />
+        <item itemvalue="JUnit.CoffeeMakerTest" />
+        <item itemvalue="JUnit.CoffeeMakerTest.ifOrderIsLatteReturnNullIfIDoNotHaveEnoughIngredients" />
+        <item itemvalue="JUnit.CoffeeMakerTest.ifOrderIsLatteReturnLatteIfIHaveEnoughIngredients" />
+        <item itemvalue="JUnit.CoffeeMakerTest.ifOrderIsFlatWhiteReturnNullIfIDoNotHaveEnoughIngredients" />
+        <item itemvalue="JUnit.CoffeeMakerTest.ifOrderIsFlatWhiteReturnFlatWhiteIfIHaveEnoughIngredients" />
       </list>
     </recent_temporary>
   </component>
@@ -354,21 +353,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CoffeeMakerTest_returnsABlackCoffee - 2019.06.03 at 15h 23m 35s.xml">
-      <configuration name="CoffeeMakerTest.returnsABlackCoffee" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoffeeMakerTest_returnsABlackCoffee - 2019.06.03 at 15h 23m 49s.xml">
-      <configuration name="CoffeeMakerTest.returnsABlackCoffee" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoffeeMakerTest_returnsABlackCoffee - 2019.06.03 at 15h 25m 57s.xml">
-      <configuration name="CoffeeMakerTest.returnsABlackCoffee" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoffeeMakerTest_returnsABlackCoffee - 2019.06.03 at 15h 28m 29s.xml">
-      <configuration name="CoffeeMakerTest.returnsABlackCoffee" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoffeeMakerTest_returnsABlackCoffee - 2019.06.03 at 15h 28m 40s.xml">
-      <configuration name="CoffeeMakerTest.returnsABlackCoffee" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CoffeeMakerTest_checkIfIngredientsAvailableReturnsFalseWhenIDoNotHaveEnoughIngredients - 2019.06.03 at 15h 49m 54s.xml">
       <configuration name="CoffeeMakerTest.checkIfIngredientsAvailableReturnsFalseWhenIDoNotHaveEnoughIngredients" configurationId="JUnit" />
     </history-entry>
@@ -384,12 +368,27 @@
     <history-entry file="CoffeeMakerTest_ifOrderIsBlackCoffeeReturnBlackCoffeeIfIHaveEnoughIngredients - 2019.06.03 at 15h 53m 20s.xml">
       <configuration name="CoffeeMakerTest.ifOrderIsBlackCoffeeReturnBlackCoffeeIfIHaveEnoughIngredients" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CoffeeMakerTest_ifOrderIsBlackCoffeeReturnNullIfIDoNotHaveEnoughIngredients - 2019.06.04 at 08h 10m 51s.xml">
+      <configuration name="CoffeeMakerTest.ifOrderIsBlackCoffeeReturnNullIfIDoNotHaveEnoughIngredients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoffeeMakerTest_ifOrderIsBlackCoffeeReturnNullIfIDoNotHaveEnoughIngredients - 2019.06.04 at 08h 11m 05s.xml">
+      <configuration name="CoffeeMakerTest.ifOrderIsBlackCoffeeReturnNullIfIDoNotHaveEnoughIngredients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoffeeMakerTest_ifOrderIsBlackCoffeeReturnNullIfIDoNotHaveEnoughIngredients - 2019.06.04 at 08h 12m 47s.xml">
+      <configuration name="CoffeeMakerTest.ifOrderIsBlackCoffeeReturnNullIfIDoNotHaveEnoughIngredients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoffeeMakerTest_ifOrderIsFlatWhiteReturnFlatWhiteIfIHaveEnoughIngredients - 2019.06.04 at 08h 21m 14s.xml">
+      <configuration name="CoffeeMakerTest.ifOrderIsFlatWhiteReturnFlatWhiteIfIHaveEnoughIngredients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoffeeMakerTest_ifOrderIsFlatWhiteReturnNullIfIDoNotHaveEnoughIngredients - 2019.06.04 at 08h 21m 50s.xml">
+      <configuration name="CoffeeMakerTest.ifOrderIsFlatWhiteReturnNullIfIDoNotHaveEnoughIngredients" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16300367" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16300367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -399,7 +398,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.25614035" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23976608" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21637426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,15 +487,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoffeeMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="56">
           <caret line="35" column="69" lean-forward="true" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/CoffeeMakerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="73" column="43" lean-forward="true" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
+        <state relative-caret-position="442">
+          <caret line="155" column="30" lean-forward="true" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
