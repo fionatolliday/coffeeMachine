@@ -1,11 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class RunCoffeeMachine {
-
-    List<String> orders;
-
 
     public static void main(String[] args) {
         CoffeeMaker coffeeMaker = new CoffeeMaker(new WaterDispenser(), new MilkDispenser(),

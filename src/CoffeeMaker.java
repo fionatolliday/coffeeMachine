@@ -1,12 +1,10 @@
-import java.io.IOException;
-import java.sql.SQLOutput;
 
 public class CoffeeMaker {
 
 
-    WaterDispenser waterDispenser;
-    MilkDispenser milkDispenser;
-    CoffeePowderDispenser coffeePowderDispenser;
+    private WaterDispenser waterDispenser;
+    private MilkDispenser milkDispenser;
+    private CoffeePowderDispenser coffeePowderDispenser;
 
 
     public CoffeeMaker(WaterDispenser waterDispenser, MilkDispenser milkDispenser,
@@ -23,7 +21,7 @@ public class CoffeeMaker {
         return coffeePowderLevel >= 15 && waterLevel >= 40;
     }
 
-    public boolean checkIfIngredientsAvailableForFlat(){
+    private boolean checkIfIngredientsAvailableForFlat(){
         int coffeePowderLevel = coffeePowderDispenser.getCoffeePowderLevel();
         int waterLevel = waterDispenser.getWaterLevel();
         int milkLevel = milkDispenser.getMilkLevel();
@@ -31,7 +29,7 @@ public class CoffeeMaker {
         return coffeePowderLevel >= 8 && waterLevel >= 30 && milkLevel >= 40;
     }
 
-    public boolean checkIfIngredientsAvailableForLatte(){
+    private boolean checkIfIngredientsAvailableForLatte(){
 
         int coffeePowderLevel = coffeePowderDispenser.getCoffeePowderLevel();
         int waterLevel = waterDispenser.getWaterLevel();
