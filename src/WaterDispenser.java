@@ -1,24 +1,22 @@
- public class WaterDispenser {
-        private int water = 200;
+public class WaterDispenser {
+    private int water = 200;
 
-        public int getWater(int amount) {
-            if (water - amount < 0) throw new IllegalArgumentException("Insufficient water levels");
+    public int getWater(int amount) {
+        if (water - amount < 0) throw new IllegalArgumentException("Insufficient water levels");
 
-            water -= amount;
-            return amount;
-        }
+        water -= amount;
+        return amount;
+    }
 
 
-     public void setWater(int water) {
-         this.water = water;
-     }
+    public void setWater(int water) {
+        this.water = water;
+    }
 
-     public int getWaterLevel() {
-         return water;
-     }
+    public int getWaterLevel() {
+        return water;
+    }
 }
-
-
 
 
 //
@@ -36,7 +34,7 @@
 //         For this exercise, use the classes found below and focus on making the CoffeeMaker class.
 //
 //         Requirements:
-        // - have only one public method Coffee makeCoffee(String type) and no public variables
+// - have only one public method Coffee makeCoffee(String type) and no public variables
 
 //         - get all the ingredients for the coffee from the other components
 //

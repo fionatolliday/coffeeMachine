@@ -7,7 +7,7 @@ public class RunCoffeeMachine {
         CoffeeMaker coffeeMaker = new CoffeeMaker(new WaterDispenser(), new MilkDispenser(),
                 new CoffeePowderDispenser());
         Coffee coffee;
-        
+
 
         List<String> orders = new ArrayList<>();
         orders.add("black coffee");
@@ -39,13 +39,13 @@ public class RunCoffeeMachine {
         for (int i = 0; i < orders.size(); i++) {
             String order = orders.get(i);
 
-                coffee = coffeeMaker.makeCoffee(order);
+            coffee = coffeeMaker.makeCoffee(order);
 
-                if (coffee == null){
-                    System.out.println("Check ingredients");
-                } else
-            System.out.println("Coffee: " + coffee.type);
-            }
+            if (coffee == null) {
+                System.out.println("Check ingredients");
+            } else
+                System.out.println("Coffee: " + coffee.type);
+        }
 
 //            coffee.consume();
 //            System.out.println("Coffee: " + coffee.type);
